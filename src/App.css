@@ -1,7 +1,16 @@
 body {
     background-color: #e3e9ff;
     padding: 10px 100px 10px 100px;
+    text-align: center;
 }
+
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 #main-container {
     background-color: #ffffff;
@@ -11,24 +20,21 @@ body {
     flex-direction: column;
     border-radius: 30px;
     border: 1px solid #c1c9e4;
+    width: 60%;
 
 }
 
 img {
     height: 30px;
     cursor: pointer;
-    position: absolute;
-    right: 0;
-    margin-right: 20px;
     width: 30px;
-
 }
 
 li {
     position: relative;
     background-color: #bc9ce4;
     padding: 20px;
-    width: 70%;
+    width: 50%;
     text-align: center;
     margin: 5px;
     border: 1px solid black;
@@ -39,6 +45,12 @@ li {
     border: 1px solid #c1c9e4;
     text-transform: capitalize;
     z-index: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    font-family: sans-serif;
+
 }
 
 
@@ -62,15 +74,12 @@ form input {
     margin-right: 10px;
 }
 
-form button {
+button {
     height: 48px;
     background-color: #e3e9ff;
     border-radius: 35px;
-}
-
-#checkbox {
-    left: 0;
-    margin-left: 20px;
-    height: 30px;
-    width: 30px;
+    margin-top: 10px;
+    background-color: #bc9ce4;
+    color: white;
+    cursor: pointer;
 }
